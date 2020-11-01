@@ -8,8 +8,24 @@ while it you can open popular coding related websites like Github, StackOverflow
 * [keyboard](https://pypi.org/project/keyboard/)
 
 ## Hotkeys
-* `Shift` + `g` Opens Github 
-* `Shift` + `s` Opens StackOverflow
-* `Shift` + `y` Opens Youtube
-* `Shift` + `h` Creates a new python project
-* `Esc` Stops the script
+* [Shift + g ](###  Shift + g)
+* [Shift + s](###  Shift + s)
+* [Shift + y ](###  Shift + y)
+* [Shift + h ](###  Shift + h)
+* [Esc](###  Esc)
+
+###  Shift + g 
+Opens Github in a new browser tab.
+
+###  Shift + s
+Opens StackOverflow in a new browser tab.
+
+###  Shift + y 
+Opens Youtube in a new browser tab.
+
+###  Shift + h 
+Creates a new python project directory on the desktop, adds a README.md and a .gitignore file to the progject 
+
+###  Esc 
+Stops the script
+
