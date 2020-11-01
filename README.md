@@ -14,6 +14,7 @@ while it you can open popular coding related websites like Github, StackOverflow
 * [Shift + h ](#Shift+h)
 * [Esc](#Esc)
 
+## Description
 ###  Shift + g 
 Opens Github in a new browser tab.
 
