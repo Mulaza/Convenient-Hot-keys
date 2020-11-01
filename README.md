@@ -8,10 +8,10 @@ while it you can open popular coding related websites like Github, StackOverflow
 * [keyboard](https://pypi.org/project/keyboard/)
 
 ## Hotkeys
-* [Shift + g ](#Shift + g)
-* [Shift + s](#Shift + s)
-* [Shift + y ](#Shift + y)
-* [Shift + h ](#Shift + h)
+* [Shift + g ](#Shift+g)
+* [Shift + s](#Shift+s)
+* [Shift + y ](#Shift+y)
+* [Shift + h ](#Shift+h)
 * [Esc](#Esc)
 
 ###  Shift + g 
