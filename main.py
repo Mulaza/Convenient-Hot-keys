@@ -4,11 +4,13 @@ import keyboard
 import webbrowser
 import os
 
+from addons import ignoreText
+
 def newPythonProject():
     # desktop path
     desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
 
-    # move intp the desktop
+    # move into the desktop
     os.chdir(desktop)
 
     # Ask for a project name
@@ -25,9 +27,9 @@ def newPythonProject():
     with open('README.md', 'w') as fileObject:
         fileObject.write("# {}".format(projectName))
 
-    # create a reademe file
+    # create a readme file
     with open('.gitignore', 'w') as fileObject:
-        fileObject.write("venv")
+        fileObject.write(ignoreText)
 
     # initialize git in the folder
     os.system("git init")
@@ -36,7 +38,9 @@ def newPythonProject():
     os.system("git  add .")
 
     # create a virtual environment
-    os.system("virtualenv venv")
+    os.system("python -m venv venv")
+
+    os.system("git commit -m 'initial commit'")
 
     # open VS code
     os.system("code .")  # open the folder in the
@@ -56,7 +60,7 @@ def openYoutube():
 keyboard.add_hotkey('shift + g', openGithub)
 keyboard.add_hotkey('shift + s', openStackoverflow)
 keyboard.add_hotkey('shift + y', openYoutube)
-keyboard.add_hotkey('shift + h', newPythonProject)
+keyboard.add_hotkey('shift + n', newPythonProject)
 
 
 
