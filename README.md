@@ -11,5 +11,5 @@ while it you can open popular coding related websites like Github, StackOverflow
 * `Shift` + `g` Opens Github 
 * `Shift` + `s` Opens StackOverflow
 * `Shift` + `y` Opens Youtube
-* `Shift` + `h` Creates a new python project
+* `Shift` + `n` Creates a new python project
 * `Esc` Stops the script
