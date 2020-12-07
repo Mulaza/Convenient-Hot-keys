@@ -40,7 +40,6 @@ def newPythonProject():
     # create a virtual environment
     os.system("python -m venv venv")
 
-    os.system("git commit -m 'initial commit'")
 
     # open VS code
     os.system("code .")  # open the folder in the
