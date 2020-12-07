@@ -41,9 +41,6 @@ def newPythonProject():
     os.system("python -m venv venv")
 
 
-    # open VS code
-    os.system("code .")  # open the folder in the
-
 
 def openGithub():
     webbrowser.open_new_tab('https://github.com')

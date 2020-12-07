@@ -14,7 +14,7 @@ while it you can open popular coding related websites like Github, StackOverflow
 * [Shift + g ](#Shift+g)
 * [Shift + s](#Shift+s)
 * [Shift + y ](#Shift+y)
-* [Shift + h ](#Shift+h)
+* [Shift + n ](#Shift+n)
 * [Esc](#Esc)
 
 ## Description
